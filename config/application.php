@@ -73,7 +73,7 @@ define("NONCE_SALT",       $_ENV["WP_NONCE_SALT"]);
   * You can have multiple installations in one database if you give each a unique
   * prefix. Only numbers, letters, and underscores please!
 **/
-$table_prefix  = $_ENV["DATABASE_PREFIX"];
+$table_prefix = getenv("DATABASE_PREFIX") ? getenv("DATABASE_PREFIX") : "wp_";
 
 /**
   * WordPress Localized Language, defaults to English. *
