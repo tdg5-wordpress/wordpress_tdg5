@@ -1,5 +1,5 @@
 <?php
-/*
+/**
   * The base configurations of the WordPress *
   *
   * This file has the following configurations: MySQL settings, Table Prefix,
@@ -15,15 +15,19 @@
   * Heroku environment variables.
   *
   * @package WordPress
-*/
+**/
 
 /**
   * Database settings *
   *
-  * The DATABASE_URL environment variable must be set via Heroku environment
-  * variables. Most database configuration is derived from the provided URL.
-*/
-$db = parse_url($_ENV["DATABASE_URL"]);
+  * The DATABASE_URL or CLEARDB_DATABASE_URL environment variable must be set
+  * via Heroku environment variables. Most database configuration is derived
+  * from the provided URL.
+**/
+
+$db_url = getenv("DATABASE_URL");
+$db_url != "" ?: $db_url = getenv("CLEARDB_DATABASE_URL");
+$db = parse_url($db_url);
 
 /** The name of the database for WordPress **/
 define("DB_NAME", trim($db["path"],"/"));
