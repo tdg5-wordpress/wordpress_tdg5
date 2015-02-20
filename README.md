@@ -4,6 +4,8 @@ Template project for deploying [Wordpress](https://wordpress.org/) to
 [Heroku](https://heroku.com) using [Composer](https://getcomposer.org/) for
 package and dependency management.
 
+[View example app](http://glacial-harbor-1236.herokuapp.com/)
+
 This project is designed to use MySQL via Heroku's
 [ClearDB add-on](https://devcenter.heroku.com/articles/cleardb).
 For a template that is bundled to use PostgreSQL, consider
@@ -87,9 +89,9 @@ environment:
 You may want to set other optional configuration values:
 
 ```
-  $ heroku config:set DATABASE_PREFIX="glacial"
+  $ heroku config:set DATABASE_PREFIX="glacial_"
   Setting config vars and restarting glacial-harbor-1236... done, v6
-  DATABASE_PREFIX:     glacial
+  DATABASE_PREFIX:     glacial_
 ```
 
 Deploy the app:
