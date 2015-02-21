@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "47f07c267ef03897042cbc6f5577d820",
+    "hash": "8e41a5031110e1ed0a6c2cca95c75074",
     "packages": [
         {
             "name": "composer/installers",
@@ -144,6 +144,40 @@
             "time": "2013-01-29 22:51:45"
         },
         {
+            "name": "tdg5-wordpress/theme_tdg5",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdg5-wordpress/theme_tdg5",
+                "reference": "11377100d7cbca46a8fe39d30d3838201910166b"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Danny Guinther",
+                    "email": "dannyguinther@gmail.com",
+                    "homepage": "http://tdg5.com/"
+                }
+            ],
+            "description": "Wordpress theme for blog.tdg5.com",
+            "homepage": "https://github.com/tdg5/tdg5_wordpress_theme",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/tdg5/tdg5_wordpress_theme/issues",
+                "source": "https://github.com/tdg5/tdg5_wordpress_theme"
+            },
+            "time": "2015-02-19 12:36:13"
+        },
+        {
             "name": "wordpress",
             "version": "4.1.1",
             "dist": {
@@ -278,6 +312,26 @@
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
         },
         {
+            "name": "wpackagist-plugin/syntaxhighlighter",
+            "version": "3.1.11",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/syntaxhighlighter/",
+                "reference": "tags/3.1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/syntaxhighlighter.3.1.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/syntaxhighlighter/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "1.7.3.1",
             "source": {
@@ -318,16 +372,16 @@
             "homepage": "https://wordpress.org/plugins/wp-security-scan/"
         },
         {
-            "name": "wpackagist-theme/twentyfifteen",
-            "version": "1.0",
+            "name": "wpackagist-theme/hueman",
+            "version": "1.5.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentyfifteen/",
-                "reference": "1.0"
+                "url": "http://themes.svn.wordpress.org/hueman/",
+                "reference": "1.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/twentyfifteen.1.0.zip",
+                "url": "http://wordpress.org/themes/download/hueman.1.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -335,7 +389,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-theme",
-            "homepage": "http://wordpress.org/themes/twentyfifteen/"
+            "homepage": "http://wordpress.org/themes/hueman/"
         }
     ],
     "packages-dev": [],
