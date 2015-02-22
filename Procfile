@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 -C apache.conf wordpress
+web: vendor/bin/heroku-php-apache2 -C config/apache.conf wordpress
