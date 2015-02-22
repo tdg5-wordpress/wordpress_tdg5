@@ -118,3 +118,9 @@ define("AWS_SECRET_ACCESS_KEY", $_ENV["AWS_SECRET_ACCESS_KEY"]);
   * Facilitate dependency and package management with Composer.
 **/
 define("WP_CONTENT_DIR", dirname(__DIR__) . "/wp-content");
+
+/**
+  * Enable WP Super Cache plugin caching
+**/
+define("WP_CACHE", true);
+define("WPCACHEHOME", WP_CONTENT_DIR . "/plugins/wp-super-cache/");
