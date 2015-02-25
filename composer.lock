@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05a18a8158d4b8e02aa4970efc88f252",
+    "hash": "0866c9b448771caf49b050ebd1017261",
     "packages": [
         {
             "name": "composer/installers",
@@ -373,15 +373,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "1.7.3.1",
+            "version": "1.7.3.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/1.7.3.1"
+                "reference": "tags/1.7.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.7.3.1.zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.7.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
