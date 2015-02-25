@@ -30,7 +30,7 @@
     "wpackagist-plugin/jetpack": "3.3.2",
     "wpackagist-plugin/real-user-monitoring-by-pingdom": "1.0",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "1.5.0",
-    "wpackagist-plugin/wordpress-seo": "1.7.3.1",
+    "wpackagist-plugin/wordpress-seo": "1.7.3.3",
     "wpackagist-plugin/wp-security-scan": "4.0.5",
     "wpackagist-plugin/wp-super-cache": "1.4.2",
     "wpackagist-theme/twentyfifteen":"1.0"
