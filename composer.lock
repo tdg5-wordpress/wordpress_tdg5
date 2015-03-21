@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0866c9b448771caf49b050ebd1017261",
+    "hash": "a6ca95407fe0125b1d4cb0a76967be83",
     "packages": [
         {
             "name": "composer/installers",
@@ -193,15 +193,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "3.0.4",
+            "version": "3.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/3.0.4"
+                "reference": "tags/3.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/akismet.3.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -273,15 +273,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.3.2",
+            "version": "5.3.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.3.2"
+                "reference": "tags/5.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -293,15 +293,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.3.2",
+            "version": "3.4.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.3.2"
+                "reference": "tags/3.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/jetpack.3.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -313,15 +313,15 @@
         },
         {
             "name": "wpackagist-plugin/real-user-monitoring-by-pingdom",
-            "version": "1.0",
+            "version": "1.0.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/real-user-monitoring-by-pingdom/",
-                "reference": "tags/1.0"
+                "reference": "tags/1.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/real-user-monitoring-by-pingdom.1.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/real-user-monitoring-by-pingdom.1.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -333,7 +333,7 @@
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.5.0",
+            "version": "1.5.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
@@ -341,7 +341,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -373,15 +373,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "1.7.3.3",
+            "version": "1.7.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/1.7.3.3"
+                "reference": "tags/1.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.7.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.1.7.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -433,15 +433,15 @@
         },
         {
             "name": "wpackagist-theme/hueman",
-            "version": "1.5.1",
+            "version": "1.5.4",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/hueman/",
-                "reference": "1.5.1"
+                "reference": "1.5.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://wordpress.org/themes/download/hueman.1.5.1.zip",
+                "url": "https://downloads.wordpress.org/theme/hueman.1.5.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -449,7 +449,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-theme",
-            "homepage": "http://wordpress.org/themes/hueman/"
+            "homepage": "https://wordpress.org/themes/hueman/"
         }
     ],
     "packages-dev": [],
