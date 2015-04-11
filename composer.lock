@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a6ca95407fe0125b1d4cb0a76967be83",
+    "hash": "578bd9a14514014293f5b01a684d751a",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "tdg5-wordpress/theme_tdg5",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tdg5-wordpress/theme_tdg5",
-                "reference": "11377100d7cbca46a8fe39d30d3838201910166b"
+                "reference": "69df10cfd8d1a13257ba62e5396ced0ff20e9324"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -167,15 +167,15 @@
                 }
             ],
             "description": "Wordpress theme for blog.tdg5.com",
-            "homepage": "https://github.com/tdg5/tdg5_wordpress_theme",
+            "homepage": "https://github.com/tdg5-wordpress/theme_tdg5",
             "keywords": [
                 "wordpress"
             ],
             "support": {
-                "issues": "https://github.com/tdg5/tdg5_wordpress_theme/issues",
-                "source": "https://github.com/tdg5/tdg5_wordpress_theme"
+                "issues": "https://github.com/tdg5-wordpress/theme_tdg5/issues",
+                "source": "https://github.com/tdg5-wordpress/theme_tdg5"
             },
-            "time": "2015-02-19 12:36:13"
+            "time": "2015-04-11 11:16:31"
         },
         {
             "name": "wordpress",
@@ -373,15 +373,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "1.7.4",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/1.7.4"
+                "reference": "tags/2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.1.7.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.0.1.zip",
                 "reference": null,
                 "shasum": null
             },
