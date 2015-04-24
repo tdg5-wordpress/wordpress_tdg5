@@ -4,10 +4,10 @@
     "package": {
       "name": "wordpress",
       "type": "webroot",
-      "version": "4.1.1",
+      "version": "4.2",
       "dist": {
         "type": "zip",
-        "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip"
+        "url": "https://github.com/WordPress/WordPress/archive/4.2.zip"
       },
       "require" : {
         "fancyguy/webroot-installer": "1.0.0"
@@ -21,7 +21,7 @@
     "ext-mbstring": "*",
     "php": ">=5.3.0",
     "fancyguy/webroot-installer": "1.0.0",
-    "wordpress": "4.1.1",
+    "wordpress": "4.2",
     "wpackagist-plugin/akismet": "3.1.1",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "0.8.2",
     "wpackagist-plugin/amazon-web-services": "0.2.2",
