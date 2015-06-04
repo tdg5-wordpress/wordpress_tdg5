@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f4eb34b625de15b66708e7ab14d1011d",
+    "hash": "f27205dc22962a3ac9b43e5e3512f18c",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,11 +145,11 @@
         },
         {
             "name": "tdg5-wordpress/theme_tdg5",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tdg5-wordpress/theme_tdg5",
-                "reference": "60c727747fd546035d9e7477ed5fc64343493133"
+                "reference": "2d3698e96c4f7983aad7d5312742325b787b4748"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -175,7 +175,7 @@
                 "issues": "https://github.com/tdg5-wordpress/theme_tdg5/issues",
                 "source": "https://github.com/tdg5-wordpress/theme_tdg5"
             },
-            "time": "2015-06-04 11:35:02"
+            "time": "2015-06-04 12:23:11"
         },
         {
             "name": "wordpress",
