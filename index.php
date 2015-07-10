@@ -14,4 +14,5 @@
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template **/
+require_once('wp-config.php' );
 require(ABSPATH . 'wp-blog-header.php' );
